@@ -1,0 +1,23 @@
+# --- System / Junk ---
+.netrwhist
+*.swp
+*.swo
+undo/
+spell/
+.DS_Store
+
+# --- Node / Tooling ---
+# Ignore the heavy stuff, but keep your package.json
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Only ignore these if you don't want to track your local tool versions
+# package-lock.json
+# yarn.lock
+
+# - Neovim Specific ---
+# We generally KEEP lazy-lock.json, but if it's annoying you, 
+# you can uncomment the line below to ignore it:
+ lazy-lock.json
+lazyvim.json
